@@ -1,0 +1,51 @@
+.AuthContainer {
+    display: flex;
+    flex-flow: column;
+    max-width: 444px;
+    margin: auto
+}
+
+
+.Avatar {
+    margin-top: 20px;
+    align-self: center;
+    background-color: rgb(207, 62, 86);
+}
+
+.FormContainer {
+display: flex;
+flex-flow: column;
+align-content: center 
+}
+
+
+.NameLastNameGroup{
+    display: flex;
+}
+
+
+.SocialNetworkLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialNetworkLogin a{
+    margin: 8px;
+    border-radius: 15%;
+}
+
+.google{
+    background: url(https://bnetaccount.akamaized.net/login/static/images/login/social/google-logo-color.svg) no-repeat 0 0;
+    opacity: 1;
+    height: 36px;
+    width: 34px;
+}
+
+.facebook{
+    background: url(https://bnetaccount.akamaized.net/login/static/images/login/social/facebook-logo-white.svg) no-repeat 0 0;
+    background-color: #1877f2;;
+    opacity: 1;
+    height: 36px;
+    width: 34px;
+}

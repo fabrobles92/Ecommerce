@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "E commerce made with MERN stack from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.2.2",
+    "cookie-session": "^2.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.2",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.18",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
